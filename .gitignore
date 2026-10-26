@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# The key database holds private keys, so it is never committed.
+# The server recreates it on start.
+*.db
+
+# Gradebot client binary (downloaded separately, not part of the project)
+gradebot
+gradebot.exe
+*.zip
